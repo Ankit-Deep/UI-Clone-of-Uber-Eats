@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Uber Eats</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero-section">
+            <div class="hero-image">
+                <div class="navbar" id="navbar-scroll">
+                    <div class="name">
+                        <button id="bar"><i id="main-bar" class="fa-solid fa-bars"></i></button>
+                        <img id="logo" style="height: 24px; width: 124px;" src="logo.svg" alt="">
+                    </div>
+                    <div class="sign-log">
+                        <a class="log-in" href="log_in.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                            Log in
+                        </a>
+                        <a class="signin" href="sign_up.html">Sign up</a>
+                    </div>
+                </div>
+                <!-- Order delivery near you -->
+                <div class="order-section">
+                    <h1>Order delivery near you</h1>
+                    <!-- Enter delivery address -->
+                    <div class="delivery-address">  
+                        <div class="location-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                        </div>
+                        <input type="search" name="" id="" placeholder="Enter delivery address" >
+                    </div>
+                    <!--Deliver now -->
+                    <div class="deliver-now">
+                        <div class="timer">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="inner-deliver-now">Deliver now</div>
+                        <div class="inner-dropdowm">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <button>Search here</button>
+                    <div class="order-signin">
+                        Or
+                        <a href="sign_up.html">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--midddle section -->
+        <div class="middle-section">
+            <div class="laptop">
+                <a href="">
+                    <img src="laptop.webp" alt="">
+                    <p id="feed">Feed your employees</p>
+                    <p id="cba">Create a bussiness account</p>
+                </a>
+            </div>
+            <div class="cook">
+                <a href="">
+                    <img src="cook.webp" alt="">
+                    <p id="feed">Your restaurant, delivered</p>
+                    <p id="cba">Add your restaurant</p>
+                </a>
+            </div>
+            <div class="cycle">
+                <a href="">
+                    <img src="cycle.webp" alt="">
+                    <p id="feed">Your restaurant, delivered</p>
+                    <p id="cba">Add your restaurant</p>
+                </a>
+            </div>
+        </div> 
+        <!-- Cities near me -->
+        <div class="cities-near-me">
+            <div class="cities">
+                <h2>Cities near me</h2>
+                <a href="">View all 500+ cities </a>
+            </div>
+            <div class="cities-image"></div>
+            <!-- Started names of cities -->
+            <div class="cities-names">
+                <a href="">Akron</a>
+                <a href="">Albuquerque</a>
+                <a href=""> Bridgeport</a>
+                <a href="">Concord</a>
+                <a href="">Dayton</a>
+                <a href="">El Paso</a>
+                <a href="">Hartford</a>
+                <a href="">Houston</a>
+                <a href="">Indianapolis</a>
+                <a href="">McAllen</a>
+                <a href="">Mesa</a>
+                <a href="">Milwaukee</a>
+                <a href="">Nashville</a>
+                <a href="">New Orleans</a>
+                <a href="">Oklahoma City</a>
+                <a href="">Omaha</a>
+                <a href="">Orlando</a>
+                <a href="">Palm Bay</a>
+                <a href="">Providence</a>
+                <a href="">Queens</a>
+                <a href="">San Antonio</a>
+                <a href="">Stony Brook</a>
+                <a href="">Tucson</a>
+                <a href="">West Hollywood</a>
+            </div>
+        </div>
+        <div class="countries">
+            <div class="cities">
+                <h2>Countries with Uber Eats</h2>
+                <a href="">View all 500+ countries </a>
+            </div>
+            <!-- Countries -->
+            <div class="countries-names">
+                <a href="">Australia</a>
+                <a href="">Belgium</a>
+                <a href="">Canada</a>
+                <a href="">Chile</a>
+                <a href="">Costa Rica</a>
+                <a href="">Dominican Republic</a>
+                <a href="">Ecuador</a>
+                <a href="">El Salvador</a>
+                <a href="">France</a>
+                <a href="">Great Britain</a>
+                <a href="">Guatemala</a>
+                <a href="">Ireland</a>
+                <a href="">Italy</a>
+                <a href="">Japan</a>
+                <a href="">Canada</a>
+                <a href="">Kenya</a>
+                <a href="">Mexico</a>
+                <a href="">New Zealand</a>
+                <a href="">Netherlands</a>
+                <a href="">Panama</a>
+                <a href="">Poland</a>
+                <a href="">Portugal</a>
+                <a href="">Sweden</a>
+                <a href="">Switzerland</a>
+                <a href="">Spain</a>
+                <a href="">Sri Lanka</a>
+                <a href="">South Africa</a>
+                <a href="">Taiwan (PRC)</a>
+                <a href="">United States of America</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <hr>
+        <div class="footer">
+            <div class="main-footer">
+                <div class="app-google">
+                    <img src="logo.svg" alt="">
+                    <div class="store">
+                        <a href=""><img src="app store.jpg" alt=""></a>
+                        <a href=""><img src="google store.png" alt=""></a>
+                    </div>
+                </div>
+                <ul class="one">
+                    <a href="">Get help</a>
+                    <a href="">Buy gifts cards</a>
+                    <a href="">Add your restaurant</a>
+                    <a href="">Sign up to deliver</a>
+                    <a href="">Create a bussiness account</a>
+                    <a href="">Promotions</a>
+                </ul>
+                <ul class="two">
+                    <a href="">Restaurants near me</a>
+                    <a href="">Show all cities</a>
+                    <a href="">Show all countries</a>
+                    <a href="">For pickup near me</a>
+                    <a href="">About Uber Eats</a>
+                    <a href=""><i class="fa-solid fa-language"></i>German</a>
+                </ul>
+            </div>
+            <hr style="margin: 40px 0px;">
+            <div class="last-footer">
+                <div class="upper-last-footer">
+                    <div class="social-media">
+                        <i class="fa-brands fa-facebook"></i> &#160; 
+                        <i class="fa-brands fa-twitter"></i> &#160; 
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="last-line">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms</a>
+                        <a href="">Pricing</a>
+                        <a href="">Do not sell or share my personal information</a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="tands">
+                        This site is protected by reCAPTCHA and the google <a href="">Privacy Policy</a>and <a href="">Terms of Service</a>apply.
+                    </div>
+                    <div class="inner-copyright">
+                        <i class="fa-regular fa-copyright"></i>2023 Uber Technologies Inc.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
